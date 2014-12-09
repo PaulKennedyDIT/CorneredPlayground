@@ -1,0 +1,168 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'imagemin-pngquant' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'imagemin-pngquant', null ]
+6 verbose cache add name=undefined spec="imagemin-pngquant" args=["imagemin-pngquant",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'imagemin-pngquant',
+7 verbose parsed url   path: 'imagemin-pngquant',
+7 verbose parsed url   href: 'imagemin-pngquant' }
+8 silly lockFile 1f23bbce-imagemin-pngquant imagemin-pngquant
+9 verbose lock imagemin-pngquant /home/paul/.npm/1f23bbce-imagemin-pngquant.lock
+10 silly lockFile 1f23bbce-imagemin-pngquant imagemin-pngquant
+11 silly lockFile 1f23bbce-imagemin-pngquant imagemin-pngquant
+12 verbose addNamed [ 'imagemin-pngquant', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 41acbfe5-imagemin-pngquant imagemin-pngquant@
+15 verbose lock imagemin-pngquant@ /home/paul/.npm/41acbfe5-imagemin-pngquant.lock
+16 silly addNameRange { name: 'imagemin-pngquant', range: '*', hasData: false }
+17 verbose request where is /imagemin-pngquant
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 26b5148ae0b5c732
+20 verbose url raw /imagemin-pngquant
+21 verbose url resolving [ 'https://registry.npmjs.org/', './imagemin-pngquant' ]
+22 verbose url resolved https://registry.npmjs.org/imagemin-pngquant
+23 verbose request where is https://registry.npmjs.org/imagemin-pngquant
+24 info trying registry request attempt 1 at 00:20:54
+25 verbose etag "CBPGRRBEZ57QJPUIPH1Y8TUIB"
+26 http GET https://registry.npmjs.org/imagemin-pngquant
+27 http 304 https://registry.npmjs.org/imagemin-pngquant
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Tue, 09 Dec 2014 00:20:54 GMT',
+28 silly registry.get     server: 'Apache',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'last-modified': 'Tue, 09 Dec 2014 00:20:54 GMT',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     etag: '"CBPGRRBEZ57QJPUIPH1Y8TUIB"',
+28 silly registry.get     age: '16',
+28 silly registry.get     'x-served-by': 'cache-ams4147-AMS',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '1',
+28 silly registry.get     'x-timer': 'S1418084454.548212,VS0,VE0',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'content-length': '0',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 verbose etag https://registry.npmjs.org/imagemin-pngquant from cache
+30 silly addNameRange number 2 { name: 'imagemin-pngquant', range: '*', hasData: true }
+31 silly addNameRange versions [ 'imagemin-pngquant',
+31 silly addNameRange   [ '0.1.0',
+31 silly addNameRange     '0.1.1',
+31 silly addNameRange     '0.1.2',
+31 silly addNameRange     '0.1.3',
+31 silly addNameRange     '1.0.0',
+31 silly addNameRange     '1.0.1',
+31 silly addNameRange     '1.0.2',
+31 silly addNameRange     '2.0.0',
+31 silly addNameRange     '2.0.1',
+31 silly addNameRange     '3.0.0',
+31 silly addNameRange     '3.1.0',
+31 silly addNameRange     '4.0.0' ] ]
+32 verbose addNamed [ 'imagemin-pngquant', '4.0.0' ]
+33 verbose addNamed [ '4.0.0', '4.0.0' ]
+34 silly lockFile 99fa07e6-imagemin-pngquant-4-0-0 imagemin-pngquant@4.0.0
+35 verbose lock imagemin-pngquant@4.0.0 /home/paul/.npm/99fa07e6-imagemin-pngquant-4-0-0.lock
+36 silly lockFile 99fa07e6-imagemin-pngquant-4-0-0 imagemin-pngquant@4.0.0
+37 silly lockFile 99fa07e6-imagemin-pngquant-4-0-0 imagemin-pngquant@4.0.0
+38 silly lockFile 41acbfe5-imagemin-pngquant imagemin-pngquant@
+39 silly lockFile 41acbfe5-imagemin-pngquant imagemin-pngquant@
+40 silly resolved [ { name: 'imagemin-pngquant',
+40 silly resolved     version: '4.0.0',
+40 silly resolved     description: 'pngquant imagemin plugin',
+40 silly resolved     license: 'MIT',
+40 silly resolved     repository:
+40 silly resolved      { type: 'git',
+40 silly resolved        url: 'https://github.com/imagemin/imagemin-pngquant' },
+40 silly resolved     author:
+40 silly resolved      { name: 'Kevin Mårtensson',
+40 silly resolved        email: 'kevinmartensson@gmail.com',
+40 silly resolved        url: 'https://github.com/imagemin' },
+40 silly resolved     engines: { node: '>=0.10.0' },
+40 silly resolved     scripts: { test: 'node test/test.js' },
+40 silly resolved     files: [ 'index.js' ],
+40 silly resolved     keywords:
+40 silly resolved      [ 'compress',
+40 silly resolved        'gulpplugin',
+40 silly resolved        'image',
+40 silly resolved        'imageminplugin',
+40 silly resolved        'img',
+40 silly resolved        'minify',
+40 silly resolved        'optimize',
+40 silly resolved        'png',
+40 silly resolved        'pngquant' ],
+40 silly resolved     dependencies:
+40 silly resolved      { 'is-png': '^1.0.0',
+40 silly resolved        'pngquant-bin': '^2.0.0',
+40 silly resolved        through2: '^0.6.1' },
+40 silly resolved     devDependencies:
+40 silly resolved      { ava: '^0.0.4',
+40 silly resolved        'buffer-equal': '^0.0.1',
+40 silly resolved        'vinyl-file': '^1.1.0' },
+40 silly resolved     gitHead: 'cccdf568d2b77cfc43620ab31fbacd0d88558e6e',
+40 silly resolved     bugs: { url: 'https://github.com/imagemin/imagemin-pngquant/issues' },
+40 silly resolved     homepage: 'https://github.com/imagemin/imagemin-pngquant',
+40 silly resolved     _id: 'imagemin-pngquant@4.0.0',
+40 silly resolved     _shasum: 'b444166a9bf0c9319d9a14221ce4acf4db8e8292',
+40 silly resolved     _from: 'imagemin-pngquant@',
+40 silly resolved     _npmVersion: '2.1.5',
+40 silly resolved     _nodeVersion: '0.10.32',
+40 silly resolved     _npmUser: { name: 'kevva', email: 'kevinmartensson@gmail.com' },
+40 silly resolved     maintainers: [ [Object], [Object] ],
+40 silly resolved     dist:
+40 silly resolved      { shasum: 'b444166a9bf0c9319d9a14221ce4acf4db8e8292',
+40 silly resolved        tarball: 'http://registry.npmjs.org/imagemin-pngquant/-/imagemin-pngquant-4.0.0.tgz' },
+40 silly resolved     directories: {},
+40 silly resolved     _resolved: 'https://registry.npmjs.org/imagemin-pngquant/-/imagemin-pngquant-4.0.0.tgz',
+40 silly resolved     readme: 'ERROR: No README data found!' } ]
+41 info install imagemin-pngquant@4.0.0 into /home/paul/.node/lib
+42 info installOne imagemin-pngquant@4.0.0
+43 verbose lib/node_modules/imagemin-pngquant unbuild
+44 verbose tar unpack /home/paul/.npm/imagemin-pngquant/4.0.0/package.tgz
+45 silly lockFile b03d5ed2-b-node-modules-imagemin-pngquant tar:///home/paul/.node/lib/node_modules/imagemin-pngquant
+46 verbose lock tar:///home/paul/.node/lib/node_modules/imagemin-pngquant /home/paul/.npm/b03d5ed2-b-node-modules-imagemin-pngquant.lock
+47 silly lockFile 0c2d0426-gemin-pngquant-4-0-0-package-tgz tar:///home/paul/.npm/imagemin-pngquant/4.0.0/package.tgz
+48 verbose lock tar:///home/paul/.npm/imagemin-pngquant/4.0.0/package.tgz /home/paul/.npm/0c2d0426-gemin-pngquant-4-0-0-package-tgz.lock
+49 silly gunzTarPerm modes [ '775', '664' ]
+50 error Error: EACCES, mkdir '/home/paul/.node/lib/node_modules/imagemin-pngquant'
+50 error  { [Error: EACCES, mkdir '/home/paul/.node/lib/node_modules/imagemin-pngquant']
+50 error   errno: 3,
+50 error   code: 'EACCES',
+50 error   path: '/home/paul/.node/lib/node_modules/imagemin-pngquant',
+50 error   fstream_type: 'Directory',
+50 error   fstream_path: '/home/paul/.node/lib/node_modules/imagemin-pngquant',
+50 error   fstream_class: 'DirWriter',
+50 error   fstream_stack:
+50 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+50 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+50 error      'Object.oncomplete (fs.js:107:15)' ] }
+51 error Please try running this command again as root/Administrator.
+52 error System Linux 3.13.0-37-generic
+53 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "imagemin-pngquant"
+54 error cwd /home/paul/CorneredPlayground/app
+55 error node -v v0.10.33
+56 error npm -v 1.4.28
+57 error path /home/paul/.node/lib/node_modules/imagemin-pngquant
+58 error fstream_path /home/paul/.node/lib/node_modules/imagemin-pngquant
+59 error fstream_type Directory
+60 error fstream_class DirWriter
+61 error code EACCES
+62 error errno 3
+63 error stack Error: EACCES, mkdir '/home/paul/.node/lib/node_modules/imagemin-pngquant'
+64 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+64 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+64 error fstream_stack Object.oncomplete (fs.js:107:15)
+65 verbose exit [ 3, true ]
